@@ -1,25 +1,25 @@
 class Msp < Formula
   desc "Smart proxy for multiple stdio MCP servers"
   homepage "https://github.com/tiejunhu/mcp-smart-proxy"
-  version "0.0.9"
+  version "0.0.10"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/tiejunhu/mcp-smart-proxy/releases/download/v0.0.9/msp-v0.0.9-aarch64-apple-darwin.tar.gz"
-      sha256 "5b5a1388c0c37a502940b494b02c3b06525cad9f399dac87f10e01d93ef64468"
+      url "https://github.com/tiejunhu/mcp-smart-proxy/releases/download/v0.0.10/msp-v0.0.10-aarch64-apple-darwin.tar.gz"
+      sha256 "51767d8b4e43b3d38d3321649c9a5270332f18547580eebd73430ddff1276d09"
     else
-      url "https://github.com/tiejunhu/mcp-smart-proxy/releases/download/v0.0.9/msp-v0.0.9-x86_64-apple-darwin.tar.gz"
-      sha256 "1a40ca84206527e9ec7e3da1f892c8f08eaab884e621580c03a3fe2a3f7f0dec"
+      url "https://github.com/tiejunhu/mcp-smart-proxy/releases/download/v0.0.10/msp-v0.0.10-x86_64-apple-darwin.tar.gz"
+      sha256 "e2c67d798dbc3dca3a272691ca753bb1c85fdb9f91ba9e6f66e9cf67bddbe2a5"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/tiejunhu/mcp-smart-proxy/releases/download/v0.0.9/msp-v0.0.9-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "7355cf432f13ed67964f1de8116c26847a4ce4e10c5a56b64ee0aa99084613b0"
+      url "https://github.com/tiejunhu/mcp-smart-proxy/releases/download/v0.0.10/msp-v0.0.10-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "5ea13a44d76d172b45fcd2b3559791bf71ed2f2b81a06af82c727d110da8e554"
     else
-      url "https://github.com/tiejunhu/mcp-smart-proxy/releases/download/v0.0.9/msp-v0.0.9-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "f6fc1801784c17f33a140f995bdbd0d90af6424e5aa5c8fccaf88c41beb572db"
+      url "https://github.com/tiejunhu/mcp-smart-proxy/releases/download/v0.0.10/msp-v0.0.10-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "1bff1f575fb4dd1002318f9a2b6b0b4c71febbb4d8ba9fa8ba5e96a3f57f69c0"
     end
   end
 
